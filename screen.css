@@ -1,0 +1,63 @@
+/* Reset All Styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+
+html { height: 100%; }
+body { background: #fff; font: 125% Verdana, sans-serif; color: #333; line-height: 1.5em; height: 100%; }
+
+/* Debug */
+/* #debug { float: right; }
+#wrapper { background: #e8cff9; }
+#header { background: #cfc; }
+#footer { background: #ccf; } */
+
+/* Structure */
+body { text-align: center; }
+#wrapper { width: 600px; margin: 0px auto; padding: 0 0; text-align: left; min-height: 100%; }
+#header { padding: 0 0 0 0; margin: 0 0 0 0; text-align: center; }
+#content { padding: 0 0 0 0; margin: 3em 0 }
+.entry { margin: 3em 0 0 0; width: 100%; padding: 0 0 0 0; }
+.entry p { line-height: 1.5em; margin: 1em 0; text-indent: 0; }
+#footer { margin: 0 0; padding: 1em 0; text-align: center; }
+h1 { margin: 0 0; padding: 1em 0; }
+
+/* Fonts */
+h1, h2, h3, h4, h5 { font-family: Helvetica, Arial, sans-serif; }
+h1 { font-size: 2em;     color:#333; }
+h2 { font-size: 1.5em;   color:#333; line-height:26px; }
+
+
+/* lists */
+ul { list-style: none; }
+
+
+/* Links */
+h1 a { color: #333; text-decoration: none; }
+a { text-decoration: underline; }
+a:link { color: #333; text-decoration: underline; }
+a:visited { color: #333; text-decoration: underline; }
+a:hover { color: #333; text-decoration: none; }
+.entry a:link {color: #303030; text-decoration: none; border-width: 0 0 1px 0; }
+.entry a:visited {color: #303030; text-decoration: none; border-width: 0 0 1px 0; }
+.entry a:hover {color: #999; text-decoration: none; }
+
+
+/* doneit */
+table.doneit { border: 0; border-collapse: collapse; text-align: center; margin: auto; }
+table.doneit td { border: 0px solid #333; width: 28px; }
