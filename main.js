@@ -27,7 +27,7 @@
     addButton("gmail", "mailto:artem@volkhin.com", "#DD4B39");
     addButton("linkedin", "http://www.linkedin.com/in/volkhin", "#007FB1");
     addButton("vk", "https://vk.com/avolkhin", "#45668E");
-    addButton("facebook", "https://fb.com/avv", "#3B5998");
+    addButton("facebook", "https://facebook.com/avv", "#3B5998");
     addButton("github", "http://github.com/volkhin", "#4183C4");
     addButton("twitter", "http://twitter.com/volkhin/", "#00ACED");
     addButton("stackoverflow", "http://stackoverflow.com/users/659325/artem-volkhin", "#F47920");
