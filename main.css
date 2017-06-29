@@ -23,11 +23,11 @@ body {
 
 .inner {
   margin: 0 auto;
-  width: 50em;
+  width: 600pt;
 }
 
 #name {
-  font-size: 5.000em;
+  font-size: 60pt;
   color: #444;
   font-family: europa, sans-serif;
   font-style: normal;
@@ -43,10 +43,10 @@ body {
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 18pt;
 }
 
-ul {
+#links > ul {
   text-align: center;
   margin-top: 1em;
   margin-left: auto;
@@ -54,26 +54,22 @@ ul {
   padding: 0;
 }
 
-li {
+#links > ul > li {
   list-style-type: none;
   display: inline;
   margin: 0 0.6em;
 }
 
-a {
+#links > ul > li > a {
   color: #aaa;
   text-decoration: none;
 }
 
-a:hover {
+#links > ul > li > a:hover {
   color: #444;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  body {
-    font-size: 120% !important;
-  }
-
   div {
     clear: both !important;
     display: block !important;
@@ -88,9 +84,9 @@ a:hover {
     margin-bottom: 2em !important;
   }
 
-  li {
+  #links > ul > li {
     float: none !important;
-    font-size: 400% !important;
+    font-size: 48pt !important;
     margin-bottom: 0.3em !important;
     width: 80% !important;
     margin-left: auto;
