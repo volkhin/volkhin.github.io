@@ -81,6 +81,7 @@ body {
 #links > ul > li > a {
   color: #aaa;
   text-decoration: none;
+  letter-spacing: 0.1em;
 }
 
 #links > ul > li > a:hover {
